@@ -1,0 +1,24 @@
+.paragharph {
+    text-align: center;
+    padding-top: 10px;
+    color: $color;
+    font-size: 16px;
+}
+.container-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 10px;
+}
+ .container-logo__button {
+     width: 50px;
+     background-color: $scondary_color;
+     height: 50px;
+ }
+ .container-logo__button:hover {
+     background-color: $scondary_color
+ }
+ .svg__log {
+     height: 20px;
+ }

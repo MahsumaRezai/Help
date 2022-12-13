@@ -1,0 +1,20 @@
+.text {
+	text-align: right;
+	flex-grow: 1;
+	padding: 30px 30px;
+	font-family: sans-serif;
+	font-size: 15px;
+	&__links {
+		text-decoration: none;
+		color: #4285f4;
+	}
+	@media screen and (max-width:1024px) {
+		display: none
+	}
+	@media screen and (max-width:912px) {
+		text-align: center;
+	}
+	
+}
+
+

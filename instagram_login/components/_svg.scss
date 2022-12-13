@@ -1,0 +1,32 @@
+.facebook {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 25px;
+  }
+  
+  .facebook svg {
+    width: 18px;
+    fill: #385185;
+    margin-right: 10px;
+  }
+  
+  .facebook a {
+    color: #385185;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .forgot {
+    width: 100%;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 15px;
+  }
+  

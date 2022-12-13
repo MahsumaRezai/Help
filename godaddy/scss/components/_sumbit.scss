@@ -1,0 +1,30 @@
+//submit
+.submit {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    &__button--black {
+        height: 40px;
+        background-color:$third_color;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    &__button {
+        height: 40px;
+        background-color:$scondary_color;
+    }
+   
+    &__link {
+        color:$third_color;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    &__link:hover{
+        color: $primary_color;
+    }
+    &__link--black{
+        color:$scondary_color;
+        text-decoration: none;
+    }
+}

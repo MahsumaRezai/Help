@@ -1,0 +1,118 @@
+//form-section
+.form-section {
+	display: block;
+}
+.Username {
+	display: block;
+	&__text{
+		font-size: 17px;
+		font-weight: bold;
+		font-family: sans-serif;
+        padding-bottom: 10px;
+        
+		@media screen  and (max-width:1024px){
+			padding-top: 20px;
+			font-size: 20px;
+		 }
+		@media screen and (max-width:912px) {
+			white-space: nowrap;
+			font-size: 15px;
+		}
+		@media screen and (max-width:768px) {
+			white-space: nowrap;
+			font-size: 15px;	
+		 }
+		@media screen and (max-width:540px) {
+			font-size: 13px;
+	    }
+		@media screen and (max-width:414px) {
+			font-size: 15px;	
+		  }
+		  @media screen and (max-width:320px){
+			font-size: 17px;
+		}
+		@media screen and (max-width:280px){
+			font-size: 20px;
+		}
+	}
+	&__input {
+		background-color: $thrid_color;
+		border: none;
+		height: 40px;
+        border-radius: 8px;
+		outline: none;
+		width:420px;
+		@media screen and (max-width:414px) {
+			width: 380px;
+			
+		}
+		@media screen and (max-width:280px) {
+			width: 350px;
+			height: 50px;
+		}
+    }
+     &__input:hover {
+	 box-shadow: 3px  3px 3px 3px #f1cdd7;
+
+	}
+}
+//password
+.password {
+	padding-top: 30px;
+	padding-bottom: 40px;
+	&__text{
+		font-size: 17px;
+		font-weight: bold;
+		font-family: sans-serif;
+		padding-bottom: 10px;
+		padding-right: 190px;
+		@media screen and (max-width:1024px) {
+			font-size: 15px;
+			
+		}
+		@media screen and (max-width:540px) {
+			font-size: 13px;
+		}
+		 @media screen and (max-width:414px) {
+			 display: flex;
+			 font-size: 15px;	 
+		}
+		 @media screen and (max-width:320px){
+			 font-size: 17px;
+		}
+		 @media screen and (max-width:280px){
+			font-size: 20px;
+		}
+	}
+	&__input {
+		background-color: $thrid_color;
+		border: none;
+		height: 40px;
+		width: 420px;
+		border-radius: 10px;
+        margin-top: 8px;
+		outline: none;
+		@media screen and (max-width:414px) {
+			width: 380px;
+		}
+		@media screen and (max-width:280px) {
+			width: 350px;
+			height: 50px;
+		}
+		
+    }
+    &__input:hover {
+        box-shadow: 3px  3px 3px 3px #f1cdd7 ;
+      }
+	&__link {
+		font-family: sans-serif;
+		font-size: 15px ;
+        text-decoration: none;
+        
+		@media screen and (max-width:1024px) {
+			font-size: 15px;
+	
+		}
+	}
+
+}

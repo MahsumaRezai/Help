@@ -1,0 +1,95 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gainsboro;
+    width: 35%;
+    height: 650px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 30px;
+ 
+    &__title{
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    &__title:hover {
+        color: $color;
+
+    }
+    &__svg{
+        height: 40px;
+    }
+    
+    @media screen  and (max-width:1028px){
+            margin-top: 5px;
+    }
+    @media screen and (max-width:912px) {
+            width: 50%;
+            margin-top: 5px;
+    }
+    @media screen and (max-width:786px) {
+        width: 80%;
+}
+    
+    @media screen and (max-width:540px){
+        width: 90%;
+    }
+    @media screen and (max-width:414px){
+      width: 100%;
+      border: none;
+    }
+  @media screen and (max-width:393px){
+      width: 100%;
+      border: none;
+  }
+  @media screen  and (max-width:360px){
+      width: 100%;
+
+}
+  @media screen and (max-width:320px) {
+      width: 100%;
+  }
+  @media screen and (max-width:280px){
+      width: 100%;
+  }
+
+}
+.title{
+    font-weight: bold;
+    font-size: 2.7rem;
+    line-height: 2.25rem;
+    font-weight: bold;
+    font-family: Noto;
+    padding-top: 10px;
+    @media screen  and (max-width:1028px){
+        display: flex;
+        flex-direction: row;
+        white-space: nowrap;
+        
+    }
+    @media screen and (max-width:412px){
+        font-size: 2rem;
+    }
+}
+.lable{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    flex-wrap: nowrap;
+
+    &__action {
+        color: $primary_color;
+
+    }
+    @media screen  and (max-width:280px){
+        display: none;
+    }
+     
+}
+.text{
+    color: $color;
+}

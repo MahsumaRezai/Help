@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+  font-family: sans-serif; }
+
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; }
+  .btn__input {
+    height: 50px;
+    border: 1px solid  gainsboro;
+    font-size: 15px;
+    padding-left: 5px;
+    color: #708090; }
+  .btn__input:hover {
+    border: 2px solid royalblue; }
+
+.check {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  gap: 2px; }
+  .check__lable {
+    font-size: 15px;
+    color: #708090; }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gainsboro;
+  width: 35%;
+  height: 650px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 30px; }
+  .content__title {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px; }
+  .content__title:hover {
+    color: #708090; }
+  .content__svg {
+    height: 40px; }
+  @media screen and (max-width: 1028px) {
+    .content {
+      margin-top: 5px; } }
+  @media screen and (max-width: 912px) {
+    .content {
+      width: 50%;
+      margin-top: 5px; } }
+  @media screen and (max-width: 786px) {
+    .content {
+      width: 80%; } }
+  @media screen and (max-width: 540px) {
+    .content {
+      width: 90%; } }
+  @media screen and (max-width: 414px) {
+    .content {
+      width: 100%;
+      border: none; } }
+  @media screen and (max-width: 393px) {
+    .content {
+      width: 100%;
+      border: none; } }
+  @media screen and (max-width: 360px) {
+    .content {
+      width: 100%; } }
+  @media screen and (max-width: 320px) {
+    .content {
+      width: 100%; } }
+  @media screen and (max-width: 280px) {
+    .content {
+      width: 100%; } }
+
+.title {
+  font-weight: bold;
+  font-size: 2.7rem;
+  line-height: 2.25rem;
+  font-weight: bold;
+  font-family: Noto;
+  padding-top: 10px; }
+  @media screen and (max-width: 1028px) {
+    .title {
+      display: flex;
+      flex-direction: row;
+      white-space: nowrap; } }
+  @media screen and (max-width: 412px) {
+    .title {
+      font-size: 2rem; } }
+
+.lable {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  padding-bottom: 20px;
+  font-size: 15px;
+  flex-wrap: nowrap; }
+  .lable__action {
+    color: darkcyan; }
+  @media screen and (max-width: 280px) {
+    .lable {
+      display: none; } }
+
+.text {
+  color: #708090; }
+
+.submit {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; }
+  .submit__button--black {
+    height: 40px;
+    background-color: black;
+    font-size: 1rem;
+    font-weight: bold; }
+  .submit__button {
+    height: 40px;
+    background-color: white; }
+  .submit__link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px; }
+  .submit__link:hover {
+    color: darkcyan; }
+  .submit__link--black {
+    color: white;
+    text-decoration: none; }
+
+.content-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 20px;
+  gap: 3px;
+  word-spacing: 2px;
+  flex-wrap: nowrap; }
+  .content-link__link {
+    color: darkcyan; }
+  @media screen and (max-width: 280px) {
+    .content-link {
+      display: none; } }
+  @media screen and (max-width: 320px) {
+    .content-link {
+      display: none; } }
+  @media screen and (max-width: 360px) {
+    .content-link {
+      display: none; } }
+
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 30px; }
+  .section__text {
+    font-size: 14px;
+    color: #708090; }
+  .section__link {
+    font-size: 14px;
+    color: darkcyan; }
+  @media screen and (max-width: 1028px) {
+    .section {
+      display: none; } }
+  @media screen and (max-width: 921px) {
+    .section {
+      padding-top: 10px; } }
+  @media screen and (max-width: 412px) {
+    .section {
+      display: none; } }
+  @media screen and (max-width: 414px) {
+    .section {
+      display: none; } }
+  @media screen and (max-width: 280px) {
+    .section {
+      display: none; } }
+
+.paragharph {
+  text-align: center;
+  padding-top: 10px;
+  color: #708090;
+  font-size: 16px; }
+
+.container-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 10px; }
+
+.container-logo__button {
+  width: 50px;
+  background-color: white;
+  height: 50px; }
+
+.container-logo__button:hover {
+  background-color: white; }
+
+.svg__log {
+  height: 20px; }

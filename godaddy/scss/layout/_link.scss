@@ -1,0 +1,25 @@
+.content-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 3px;
+    word-spacing: 2px;
+    flex-wrap: nowrap;
+
+    &__link {
+        color: $primary_color;
+    }
+    @media screen  and (max-width:280px){
+       display: none;
+   
+   }
+   @media screen  and (max-width:320px){
+       display: none;
+   
+   }
+   @media screen  and (max-width:360px){
+       display: none;
+   
+   }
+}

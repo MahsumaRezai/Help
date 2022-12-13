@@ -1,0 +1,17 @@
+   // links 
+   .links {
+    margin: 0% auto;
+    justify-content: center;
+    align-self: center;
+    padding-left:  40px;
+    padding-top: 20px;
+    @media screen and ( max-width:393px){
+        white-space: nowrap;
+        
+    }
+    &__link {
+        text-decoration: none;
+        color: #1877f2;
+
+    }
+}

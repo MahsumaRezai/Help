@@ -1,0 +1,46 @@
+
+.icon {
+	width: 13px;
+    height: 13px;
+    margin-top: -3px;
+    margin-right: 2px;
+    fill: currentColor;
+    vertical-align: middle;
+}
+.icon-twiter  {
+	width: 13px;
+    height: 13px;
+    margin-top: -3px;
+    margin-right: 2px;
+    fill: currentColor;
+    vertical-align: middle;
+}
+.title {
+	align-items: center;
+	padding-bottom: 20px;
+	font-size: 25px;
+	font-family: sans-serif;
+	font-weight: bold;
+	@media screen and (max-width:912px) {
+		white-space: nowrap;
+		font-size: 20px;
+	}
+	@media screen and (max-width:768px) {
+		white-space: nowrap;
+		font-size: 20px;
+	}
+	@media screen and (max-width:540px) {
+		white-space: nowrap;
+		font-size: 17px;
+	}
+	@media screen  and (max-width:414px ){
+		font-size: 30px;
+		
+	}
+}
+
+
+
+
+
+

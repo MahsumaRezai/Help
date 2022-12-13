@@ -1,0 +1,30 @@
+// image 
+.img {
+	width: 450px;
+	margin: 0% auto;
+	border-radius: 100px;
+	@media screen and (max-width:1024px){
+		display: none;
+	} 	
+}
+.img {
+	@media screen and (max-width:1500px){
+		display: none;
+	}
+}
+
+.art {
+    display: flex;
+    color: $secodry_color;
+    font-family: sans-serif;
+	gap: 5px;
+	padding-top: 80px;
+	font-size: 15px;
+  &__link {
+        color: $secodry_color;
+	 }
+	@media screen and (max-width:1500px){
+		display: none;
+	}
+
+}

@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%; }
+
+.svg__log {
+  height: 15px;
+  padding-right: 10px; }
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-bottom: 2px solid  gainsboro;
+  padding-bottom: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  gap: 15px; }
+
+.btn {
+  width: 320px;
+  height: 50px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row; }
+  .btn:hover {
+    background-color: gainsboro;
+    border: 1px solid gainsboro; }
+  .btn__title {
+    color: #696969;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none; }
+  @media screen and (max-width: 912px) {
+    .btn {
+      width: 400px; } }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0px 50px;
+  justify-content: center; }
+  .form__input {
+    border: none;
+    border-radius: 50px;
+    height: 60px;
+    border: 1px solid transparent; }
+    .form__input:hover {
+      border: 1px solid #71b8ff; }
+  .form__input::placeholder {
+    font-size: 1rem;
+    padding-left: 20px; }
+
+.submit {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 1.25rem;
+  margin-top: 1.25rem; }
+  .submit__button {
+    width: 200px;
+    background: royalblue;
+    height: 40px;
+    border: none;
+    border-radius: 20px; }
+  .submit__button:hover {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+  .submit__text {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold; }
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: blue;
+  font-family: sans-serif;
+  padding-bottom: 30px;
+  white-space: nowrap; }
+
+.head-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  word-spacing: -10px; }
+
+.lable {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  white-space: nowrap; }
+
+body, html {
+  min-height: 750px; }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  min-height: 700px;
+  background-color: #F5F5F5; }
+  @media screen and (max-width: 912px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+      height: 1200px; } }
+
+.section_left {
+  width: 50%;
+  padding: 80px 50px; }
+  @media screen and (max-width: 912px) {
+    .section_left {
+      width: 80%;
+      justify-content: center;
+      align-items: center;
+      margin: 0% auto;
+      display: flex;
+      flex-direction: column;
+      top: 50%;
+      left: 50%; } }
+
+.section_right {
+  width: 50%;
+  padding: 150px 40px; }
+  .section_right__log {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px; }
+  .section_right__text {
+    font-size: 20px;
+    color: #696969;
+    font-style: italic;
+    line-height: 1.625;
+    font-family: sans-serif; }
+    @media screen and (max-width: 1024px) {
+      .section_right__text {
+        white-space: nowrap;
+        font-size: 15px; } }
+    @media screen and (max-width: 912px) {
+      .section_right__text {
+        margin-top: -150px; } }
+  .section_right__title {
+    line-height: 1.625;
+    font-family: sans-serif;
+    color: #696969;
+    font-weight: bold; }
+    @media screen and (max-width: 912px) {
+      .section_right__title {
+        display: none; } }
+
+.log__img {
+  border-radius: 50%;
+  height: 50px;
+  margin-right: 10px; }
+  @media screen and (max-width: 912px) {
+    .log__img {
+      display: none; } }
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-bottom-width: 4px; }
+
+.log, .svg {
+  height: 30px;
+  margin-right: -70px; }

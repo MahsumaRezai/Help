@@ -1,0 +1,48 @@
+
+.select {
+    background-color: transparent;
+    border: none;
+    color: #8e8e8e;
+    width: 65px;
+  }
+  
+  .la-copy {
+    margin-top: 20px;
+    font-size: 0.85rem;
+    color: #8e8e8e;
+  }
+  
+  .phone {
+    background-image: url("../image/phone.png");
+    height: 650px;
+    width: 390px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 45px 45px 0 0;
+  }
+  .bg {
+    position: absolute;
+    width: 250px;
+    height: 550px;
+    top: 30px;
+    right: 20px;
+    opacity: 0;
+    background-position: center;
+    background-size: cover;
+    -webkit-animation: slideshow 10s linear infinite;
+            animation: slideshow 10s linear infinite;
+  }
+  section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  

@@ -1,0 +1,34 @@
+// button-log 
+.button-log {
+	color: white;
+	&__log {
+		background-color: #ea4c89;
+		height: 40px;
+		border: none;
+		flex-grow: 2;
+		border-radius: 10px;
+		width: 200px;
+		@media screen  and (max-width:320px){
+			width: 350px;	
+			height: 50px;
+		}
+	}
+	&__link {
+		color: white;
+		font-size: 17px;
+		text-decoration: none;
+		@media screen  and (max-width:320px){
+			font-size: 20px;
+		}
+		@media screen  and (max-width:280px){
+			 font-size: 20px;
+		}
+	}
+	
+    &__log:hover {
+		background-image: linear-gradient(  rgba(55, 0, 255, 0),pink);
+
+	  }
+	 
+
+}
